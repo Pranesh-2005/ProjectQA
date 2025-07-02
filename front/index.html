@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Interview Q&A Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Project Q&A Interview Bot</h1>
+
+        <label>Project Summary (Mandatory)</label>
+        <textarea id="summary" placeholder="Enter your project summary..."></textarea>
+
+        <label>Tech Stack (Mandatory)</label>
+        <input type="text" id="tech" placeholder="E.g., Python, React, SQL">
+
+        <label>Workflow / Architecture (Optional)</label>
+        <textarea id="workflow" placeholder="Describe the workflow or architecture (optional)..."></textarea>
+
+        <button onclick="generate()">🚀 Generate Q&A</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
