@@ -11,7 +11,7 @@ function generate() {
 
     resultDiv.innerHTML = "⏳ Generating Q&A... Please wait...";
 
-    fetch('http://127.0.0.1:5000/generate', {
+    fetch('https://projqa.onrender.com/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
