@@ -86,7 +86,7 @@ export default function ResultsPage() {
 
   // Format the result for better display
   const formatResult = (text: string) => {
-    const sections = text.split(/(?=Q\d+:|Question \d+:|Q:|Question:)/i)
+    const sections = text.split(/(?=Q\d+:|Question \d+:|Question:)/i)
     return sections
       .filter((section) => section.trim())
       .map((section, index) => {
@@ -105,7 +105,7 @@ export default function ResultsPage() {
               </div>
               <div className="flex-1 space-y-4">
                 <h3 className="text-xl font-semibold text-slate-800 leading-relaxed group-hover:text-blue-700 transition-colors">
-                  {question.replace(/^Q\d*:?\s*/i, "").replace(/^Question\s*\d*:?\s*/i, "")}
+                  {question}
                 </h3>
                 {answer && (
                   <div className="text-slate-600 leading-relaxed whitespace-pre-wrap pl-6 border-l-4 border-blue-100 bg-slate-50 p-4 rounded-r-lg">
