@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Project QA Assistant',
+  description: 'Projet QA Assistant is a tool to help you with your project-related questions and tasks.',
 }
 
 export default function RootLayout({
