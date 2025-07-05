@@ -57,11 +57,8 @@ cd ProjectQA
     AZURE_OPENAI_API_VERSION=your-api-version
     ```
 4. Start the backend server:
-    ```bash
-    python app.py
-    ```
 
-#### b) **Node.js (Express) Version**
+#### **Python(Flask) Version**
 
 1. Go to the backend folder:
     ```bash
@@ -69,12 +66,12 @@ cd ProjectQA
     ```
 2. Install dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 3. Create a `.env` file and add your Azure OpenAI credentials (see above).
-4. Start the backend server:
+4. Start the backend flask server:
     ```bash
-    node app.js
+    python app.py
     ```
 
 ---
